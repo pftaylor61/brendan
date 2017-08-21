@@ -30,14 +30,14 @@
 			<?php } ?>
 		</header> <!-- /.entry-header -->
 
-		<?php if ( is_search() ) { // Only display Excerpts for Search ?>
+		<?php if ( is_search() || is_home() || is_category() || is_tag() ) { // Only display Excerpts for Search ?>
 			<div class="entry-summary">
 				<?php the_excerpt(); ?>
 			</div> <!-- /.entry-summary -->
 		<?php }
 		else { ?>
 			<div class="entry-content">
-				<?php the_content( wp_kses( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'brendan' ), array( 'span' => array( 
+				<?php the_excerpt( wp_kses( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'brendan' ), array( 'span' => array( 
 					'class' => array() ) ) )
 					); ?>
 				<?php wp_link_pages( array(

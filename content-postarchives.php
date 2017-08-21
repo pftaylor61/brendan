@@ -14,7 +14,7 @@
 		</header>
 	<?php } ?>
 	<div class="entry-content">
-		<?php the_content(); ?>
+		<?php the_excerpt(); ?>
 
 		<h2><?php esc_html_e( 'Archives by Category', 'brendan' ); ?></h2>
 		<ul class="content-archives-by-category">

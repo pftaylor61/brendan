@@ -17,8 +17,8 @@ get_header(); ?>
 			<?php if ( have_posts() ) : ?>
 
 				<?php // Start the Loop ?>
-				<?php while ( have_posts() ) : the_post(); ?>
-					<?php get_template_part( 'content', 'postarchives' ); ?>
+				<?php while ( have_posts() ) : the_excerpt(); ?>
+					<?php  get_template_part( 'content', 'postarchives' ); ?>
 				<?php endwhile; ?>
 
 			<?php else : ?>
