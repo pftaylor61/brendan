@@ -43,7 +43,7 @@
 	<div id="headercontainer" class="headercontainerclass">
                 
             <?php // echo ocwssl_function('ocwssl_thin'); ?>
-            <?php echo do_shortcode('[vidbg container=".headercontainerclass" mp4="http://localhost/cruthu/wp-content/uploads/2016/11/irelandbg.mp4" webm="http://localhost/cruthu/wp-content/uploads/2016/11/irelandbg.webm" poster="http://localhost/cruthu/wp-content/uploads/2016/11/ireland_02.jpg" loop="true" overlay="false" overlay_color="#ddd" overlay_alpha="0.6" muted="true"]'); ?>
+            <?php // echo do_shortcode('[vidbg container=".headercontainerclass" mp4="http://localhost/cruthu/wp-content/uploads/2016/11/irelandbg.mp4" webm="http://localhost/cruthu/wp-content/uploads/2016/11/irelandbg.webm" poster="http://localhost/cruthu/wp-content/uploads/2016/11/ireland_02.jpg" loop="true" overlay="false" overlay_color="#ddd" overlay_alpha="0.6" muted="true"]'); ?>
                 
             
 		<header id="masthead" class="site-header row" role="banner">
